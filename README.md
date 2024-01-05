@@ -3,12 +3,6 @@
 ## Introduction
 This project demonstrates the use of Vertex AI SDK to train and deploy an AutoML text sentiment analysis model. It focuses on analyzing the sentiment of tweets, utilizing Google Cloud's ML services and resources.
 
-## Workflow Overview
-The project workflow is as follows:
-- Data is sourced and pre-processed into a CSV format.
-- The CSV is uploaded to Google Cloud Storage.
-- Google Colaboratory is used for interacting with the data and training the model via Vertex AI.
-- The trained model is then used to analyze tweet sentiment, resulting in a labeled dataset indicating sentiments.
 
 ## Installation
 To set up this project:
@@ -40,8 +34,18 @@ To incorporate CSV data into GCP and perform the necessary preprocessing, follow
         
         ```
         gsutil cp [FILE_NAME] gs://[BUCKET_NAME]/[OBJECT_NAME]
+       
         ```
-        
+## Workflow Overview
+The project workflow is as follows:
+- Data is sourced and pre-processed into a CSV format.
+- The CSV is uploaded to Google Cloud Storage.
+- Google Colaboratory is used for interacting with the data and training the model via Vertex AI.
+- The trained model is then used to analyze tweet sentiment, resulting in a labeled dataset indicating sentiments.
+    
+![Workflow Diagram](workflow.png "Workflow Diagram")   
+
+     
 ## Contributing
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
