@@ -1,4 +1,4 @@
-# Vertex AI SDK: AutoML Text Sentiment Analysis
+# Vertex AI SDK: AutoML and BERT Text Sentiment Analysis
 
 ## Introduction
 This project demonstrates the use of Vertex AI SDK to train and deploy an AutoML text sentiment analysis model. It focuses on analyzing the sentiment of tweets, utilizing Google Cloud's ML services and resources.
@@ -9,10 +9,10 @@ To set up this project:
 
 1. Clone this repository to your local machine.
 2. Ensure you have Python installed.
-3. Install the required libraries as detailed in the `autoML(1).ipynb` notebook.
+3. Install the required libraries as detailed in the `autoML_model.ipynb`, `Bert_data_cloud.ipynb` notebooks.
 
 ## Usage
-Follow the steps in the `autoML(1).ipynb` notebook:
+Follow the steps in the `autoML(1).ipynb` and `Bert_data_cloud.ipynb` notebook:
 
 1. **Dataset Preparation**: Utilizing the Twitter sentiment dataset of 1m6.
 2. **Model Training**: Create a Vertex AI Dataset resource and train the AutoML model.
